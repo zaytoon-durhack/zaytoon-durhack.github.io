@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Rashatopia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="animation.js"></script>
+    <style>
+        /* Add these new styles */
+        .hero {
+            background-image: url('pics/2.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            width: 100%;  /* Added to make the image width the same as the page width */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <label class="toggle" aria-label="Toggle dark mode">
+            <input type="checkbox" id="dark-mode-toggle">
+            <span>☀️</span>
+            <span>🌙</span>
+        </label>
+    </nav>
+
+    <div class="hero">
+        <h1 id="main-heading">About</h1>
+    </div>
+
+    <div class="content">
+        <p>This website is designed as a project for DurHack 2024 by Zaytoon Team:</p>
+        <ul>
+            <li>Rashad Hamidi</li>
+            <li>Diana Hindya</li>
+            <li>Julio Quijas</li>
+            <li>Ahmad Ashqar</li>
+        </ul>
+
+        <h2>Theme</h2>
+        <p>Yet to be decided.</p>
+    </div>
+</body>
+</html>
